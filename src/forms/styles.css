@@ -1,0 +1,270 @@
+
+/********* Titre ************/
+.heading{
+        margin: 30px 0 50px 0;
+        text-align: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.heading h2{
+        font-weight: bold;
+        font-size: 30px;
+        
+}
+.heading h2:after{
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        background-color:  rgb(255, 94, 0);
+        width: 100px;
+        height: 4px;
+        border-radius: 3px;
+        transform: translateX(-50px);
+
+}
+
+
+/********* Formulaire ************/
+.form_container .formContain form{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 100%;
+}
+
+.form_container form.formsini{
+                align-items: flex-end;
+}
+
+.form_container  .sinistre,.contact{
+        position: relative;
+background-color: rgb(252, 246, 238);
+}
+
+.form_container .formContain form.form{
+        align-items:center;
+}
+
+.form_container .formContain form label{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+}
+
+.form_container .formContain input,textarea, select{
+        border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+        padding: 0.5rem 1rem;
+	background-color: rgba(230, 230, 230, 0.6);
+	font-size: 1.1rem;
+	margin: 11px 11px;
+	transition: .3s;
+}
+
+/********* Les champs du formulaire ************/
+select{
+ width: 250px;        
+}
+input:not(.field){
+ width: 250px;       
+}
+ input.field{
+        width: 520px;
+}
+textarea{
+        width: 520px;
+        resize: none;
+}
+
+/********* Bouton ************/
+.butn{
+        width: 520px;
+        margin-top: 10px;
+	padding: 12px  0px;
+	background-color: rgb(247, 76, 14);
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.butn:hover{
+        background-color: rgba(249, 75, 11, 0.9);
+}
+.form_container .formContain input:hover,textarea:hover, select:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form_container .formContain input:focus,textarea:focus, select:focus{
+    border: 2px solid rgba(250, 81, 30, 0.47);
+    background-color: #fff;
+}
+
+.form_container .question h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+
+}
+.form_container .question{
+        padding: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+@media (max-width:550px){
+        select{
+ width: 200px;        
+}
+input:not(.field){
+ width: 200px;       
+}
+ input.field{
+        width: 420px;
+}
+textarea{
+        width: 420px;
+}
+
+.butn{
+        width: 420px;
+}
+}
+
+
+@media (max-width:450px){
+        select{
+ width: 180px;        
+}
+input:not(.field){
+ width: 180px;       
+}
+ input.field{
+        width: 390px;
+}
+textarea{
+        width: 390px;
+}
+
+.butn{
+        width: 390px;
+}
+}
+
+@media (max-width:410px){
+.form_container .formContain .formgroup{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+}     
+
+select{
+ width: 310px;        
+}
+input:not(.field){
+ width: 310px;       
+}
+ input.field{
+        width: 310px;
+}
+textarea{
+        width: 310px;
+}
+
+.butn{
+        width: 310px;
+}
+}
+
+@media (max-width:340px){
+.form_container .formContain .formgroup{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+}     
+
+select{
+ width: 270px;        
+}
+input:not(.field){
+ width: 270px;       
+}
+ input.field{
+        width: 270px;
+}
+textarea{
+        width: 270px;
+}
+
+.butn{
+        width: 270px;
+}
+
+}
+
+@media (max-width:289px){
+.form_container .formContain .formgroup{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+}     
+
+select{
+ width: 240px;        
+}
+input:not(.field){
+ width: 240px;       
+}
+ input.field{
+        width: 240px;
+}
+textarea{
+        width: 240px;
+}
+
+.butn{
+        width: 240px;
+}
+}
+@media (max-width:250px){
+.form_container .formContain .formgroup{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+}     
+
+select{
+ width: 190px;        
+}
+input:not(.field){
+ width: 190px;       
+}
+ input.field{
+        width: 190px;
+}
+textarea{
+        width: 190px;
+}
+
+.butn{
+        width: 190px;
+}
+}
+
+
+
+
+
+
+
+

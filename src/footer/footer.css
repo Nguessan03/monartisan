@@ -1,0 +1,100 @@
+footer{
+
+        background: rgba(255, 183, 120, 0.3);
+        padding: 50px;
+}
+
+.box1{
+padding:0 30%;      
+}
+.icons{
+        margin-bottom:20px;
+}
+
+li, a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+}
+
+
+ul.icons li i{
+        color: rgb(255, 65, 2);
+        padding:20px;
+        background:rgb(255, 255, 209);
+        border-radius: 4px;
+        box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.14),
+		0px 0px 19px 14px rgba(0,0,0,0.03),
+		0px 0px 26px 4px rgba(0,0,0,0.14);
+}
+
+
+ul.icons li i:hover{
+background: rgb(255, 65, 2);
+color: rgb(255, 255, 209);
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+padding:21px;
+transition: 0.3s;
+}
+
+.box2{
+        margin-top: 50px;
+}
+
+@media (max-width:649px){
+
+        .list{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        }
+        .box1{
+padding:0 15%;      
+}
+}
+
+
+@media (max-width:390px){
+        ul.icons li i{
+        padding:16px;
+        }
+        ul.icons li i{
+        padding:16px;
+        }
+
+}
+
+@media (max-width:360px){
+
+footer{
+ padding: 40px 30px;
+} 
+
+}
+
+@media (max-width:320px){
+
+        ul.icons li i{
+        padding:15px;
+        }
+        ul.icons li i:hover{
+        padding:16px;
+        }
+
+footer{
+ padding: 40px 30px;
+} 
+
+}
+
+@media (max-width:290px){
+
+
+footer{
+ padding: 15px 15px;
+} 
+
+.box1{
+padding:0;      
+}
+}

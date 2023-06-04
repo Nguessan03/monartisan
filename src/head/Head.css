@@ -1,0 +1,46 @@
+.head{
+        background-color: #fa8d52;
+        padding: 8px  30px;
+}
+
+
+.numero p{
+        color: red;
+        font-size: 16px;
+}
+
+.btn button{
+        padding: 8px 8px;
+        background: rgb(255, 200, 2);
+        box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+}
+
+.btn button:hover{
+        box-shadow: -2px 2px 0 #fff, -4px 4px 0 #fff;
+        padding: 8px 6px;        
+}
+
+@media (max-width: 769px) {
+.numero p{
+        color: red;
+        font-size: 15px;
+}
+
+.btn button{
+        padding: 7px 8px;
+        font-size: 15px;
+        font-weight: 300;
+
+}
+
+.head {
+        padding: 10px  15px; 
+}
+        
+}
