@@ -49,14 +49,14 @@ const Sinistre = () =>
                 
                         .then( response =>
                         {
-                                console.log( "Reponse du serveur", response.data )
+                                alert( response.data )
                                 console.log(formData)
                                 
                         } )
                         .catch( error =>
                         {
                         
-                                console.log('Erreur lors de l\'envoie des données', error)
+                                alert('Erreur lors de l\'envoie des données')
                 })
         }
 
